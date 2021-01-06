@@ -77,19 +77,7 @@
         <artifactId>heroku-maven-plugin</artifactId>
         <version>3.0.3</version>
       </plugin>
-                 	<plugin>
-			<!-- Build an executable JAR -->
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-jar-plugin</artifactId>
-			<version>2.4</version>
-			<configuration>
-				<archive>
-					<manifest>
-						<mainClass>com.fawad.walletapp.WalletappApplication</mainClass>
-					</manifest>
-				</archive>
-			</configuration>
-		</plugin>
+                 	
             
             
         </plugins>
